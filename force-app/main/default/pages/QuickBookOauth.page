@@ -1,0 +1,7 @@
+<apex:page controller="googleauthclass">
+ <apex:form >
+ <apex:commandButton value="Connect To Quickbook" action="{!connect}"/>
+ <apex:commandButton value="Fetch Auth Token" action="{!showtoken}"/>
+ </apex:form>
+ {!bodyprint}
+</apex:page>
