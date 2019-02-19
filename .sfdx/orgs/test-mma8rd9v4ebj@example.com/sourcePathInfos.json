@@ -1,0 +1,1248 @@
+[
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853449,
+            "changeTime": 1550549853449,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853449,
+            "changeTime": 1550549853449,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1550555676613,
+            "changeTime": 1550555676613,
+            "contentHash": "5c307a71c493ba3156ce94c0b94aa003d4d7641b"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1550555676665,
+            "changeTime": 1550555676665,
+            "contentHash": "f20142856cefe23cf45bee9fdd9894174c6a929c"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\AsyncEcEuropaEuTaxudViesServicesCheckva.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\AsyncEcEuropaEuTaxudViesServicesCheckva.cls",
+            "isDirectory": false,
+            "size": 4209,
+            "modifiedTime": 1550549853450,
+            "changeTime": 1550549853450,
+            "contentHash": "7b4ac017a8605b694fe568b4ec4e67122ccfa080",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\AsyncEcEuropaEuTaxudViesServicesCheckva.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\AsyncEcEuropaEuTaxudViesServicesCheckva.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853451,
+            "changeTime": 1550549853451,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\ecEuropaEuTaxudViesServicesCheckva.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\ecEuropaEuTaxudViesServicesCheckva.cls",
+            "isDirectory": false,
+            "size": 11753,
+            "modifiedTime": 1550549853457,
+            "changeTime": 1550549853457,
+            "contentHash": "9b01ce3f2dbc3b4e06ee087a3ec79d178429e437",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\ecEuropaEuTaxudViesServicesCheckva.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\ecEuropaEuTaxudViesServicesCheckva.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853458,
+            "changeTime": 1550549853458,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\githubauthclass.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\githubauthclass.cls",
+            "isDirectory": false,
+            "size": 6305,
+            "modifiedTime": 1550549853458,
+            "changeTime": 1550549853458,
+            "contentHash": "943655a3c00a2a05943af3b5db05e09bb8d8d620",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\githubauthclass.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\githubauthclass.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853459,
+            "changeTime": 1550549853459,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\googleauthclass.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\googleauthclass.cls",
+            "isDirectory": false,
+            "size": 4889,
+            "modifiedTime": 1550549853460,
+            "changeTime": 1550549853460,
+            "contentHash": "632f7bdc72ff1c5e876e8867cfd74d986476c51f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\googleauthclass.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\googleauthclass.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853460,
+            "changeTime": 1550549853460,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookAccountResponse.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookAccountResponse.cls",
+            "isDirectory": false,
+            "size": 2022,
+            "modifiedTime": 1550549853452,
+            "changeTime": 1550549853452,
+            "contentHash": "568910f4c46ba946b9df162d09158ad83383b78c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookAccountResponse.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookAccountResponse.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853452,
+            "changeTime": 1550549853452,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookConnect.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookConnect.cls",
+            "isDirectory": false,
+            "size": 8508,
+            "modifiedTime": 1550549853454,
+            "changeTime": 1550549853454,
+            "contentHash": "06825a66c2a30f12f1c0b924fb663b8c8f701bcf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookConnect.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookConnect.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853454,
+            "changeTime": 1550549853454,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerRequest.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerRequest.cls",
+            "isDirectory": false,
+            "size": 2278,
+            "modifiedTime": 1550549853455,
+            "changeTime": 1550549853455,
+            "contentHash": "73e18cb032e7128796479f4b2d68861ee99ab97a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerRequest.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerRequest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853455,
+            "changeTime": 1550549853455,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerResponse.cls",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerResponse.cls",
+            "isDirectory": false,
+            "size": 3808,
+            "modifiedTime": 1550549853456,
+            "changeTime": 1550549853456,
+            "contentHash": "02b582094c94a0ed8351a7202e77c7bfef27e660",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerResponse.cls-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\QuickbookCustomerResponse.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1550549853456,
+            "changeTime": 1550549853456,
+            "contentHash": "f0c9627cd0220709bf02236237476639a24192df",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853463,
+            "changeTime": 1550549853463,
+            "contentHash": "e8ea32b21f0eb765c428a5f8820542e0ac937f4e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853466,
+            "changeTime": 1550549853466,
+            "contentHash": "649aa45cb1b22c8ce20aff1e93a379a860fb5179",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853466,
+            "changeTime": 1550549853466,
+            "contentHash": "0e944298e9c72307c1f2ab03ea8cd93c1f862623",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\accessToken__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\accessToken__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 405,
+            "modifiedTime": 1550549853465,
+            "changeTime": 1550549853465,
+            "contentHash": "6cb95d88dc832ce36654973945d5ce28b1366247",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\refreshToken__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\refreshToken__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 407,
+            "modifiedTime": 1550549853466,
+            "changeTime": 1550549853466,
+            "contentHash": "0f75185afc3b400ace5fec39ce444038bdc46cb4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\UpdatedDateTime__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\fields\\UpdatedDateTime__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 497,
+            "modifiedTime": 1550549853465,
+            "changeTime": 1550549853465,
+            "contentHash": "50b68993a4f492b761f51071becc2b1d2ff64cf8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\listViews",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853467,
+            "changeTime": 1550549853467,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1550549853467,
+            "changeTime": 1550549853467,
+            "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\QuickbookConfig__c.object-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickbookConfig__c\\QuickbookConfig__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2159,
+            "modifiedTime": 1550549853464,
+            "changeTime": 1550549853464,
+            "contentHash": "65955aec191feba4670d28f882b2a741b01118a4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853462,
+            "changeTime": 1550549853462,
+            "contentHash": "1f3d6cfb8d7bf0c2fd7976de066a642bf8b60feb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853463,
+            "changeTime": 1550549853463,
+            "contentHash": "ecbf143c868cc2f2d334c7f57c0baee9a874ce53",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\Account__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\Account__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 573,
+            "modifiedTime": 1550549853462,
+            "changeTime": 1550549853462,
+            "contentHash": "848435c50903c00acd81fcb12e1b4a5234d5a19f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\Contact__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\Contact__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 573,
+            "modifiedTime": 1550549853463,
+            "changeTime": 1550549853463,
+            "contentHash": "02a3e7c26199c525ffbf8599828fce6838fce2c8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\ResponseBody__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\fields\\ResponseBody__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 407,
+            "modifiedTime": 1550549853463,
+            "changeTime": 1550549853463,
+            "contentHash": "64a463677e2a0453e0a30e5d90645a4b236d6a63",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\QuickBookEventLog__c.object-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\objects\\QuickBookEventLog__c\\QuickBookEventLog__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2172,
+            "modifiedTime": 1550549853461,
+            "changeTime": 1550549853461,
+            "contentHash": "877fb8bafae4bef9845bf62b7cb4842a456682e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853469,
+            "changeTime": 1550549853469,
+            "contentHash": "053f0e2fcaf16f8c13fc52b72dd0be49cd8a4d4b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\github.page",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\github.page",
+            "isDirectory": false,
+            "size": 243,
+            "modifiedTime": 1550549853468,
+            "changeTime": 1550549853468,
+            "contentHash": "e2fb3df3697dd445e6518dc7b5a856e6bc6eafbd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\github.page-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\github.page-meta.xml",
+            "isDirectory": false,
+            "size": 450,
+            "modifiedTime": 1550549853469,
+            "changeTime": 1550549853469,
+            "contentHash": "4a367a4e5e045068a82ec424c44654825a282d39",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\QuickBookOauth.page",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\QuickBookOauth.page",
+            "isDirectory": false,
+            "size": 243,
+            "modifiedTime": 1550549853468,
+            "changeTime": 1550549853468,
+            "contentHash": "3128106369ffbf2d12a7fda91f15980a8cbe083a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\QuickBookOauth.page-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\pages\\QuickBookOauth.page-meta.xml",
+            "isDirectory": false,
+            "size": 297,
+            "modifiedTime": 1550549853468,
+            "changeTime": 1550549853468,
+            "contentHash": "af3e6548e3e9b2e64e0bd5302ff945d4cee66982",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853498,
+            "changeTime": 1550549853498,
+            "contentHash": "ffd72e8d4392155bae0c5da979aefad93ae304ed",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 21562,
+            "modifiedTime": 1550555676731,
+            "changeTime": 1550555676731,
+            "contentHash": "1aaac0d6ec2cf938581e286df428c138319a99be"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Analytics Cloud Integration User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Analytics Cloud Integration User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2228,
+            "modifiedTime": 1550549853470,
+            "changeTime": 1550549853470,
+            "contentHash": "811062536676ddaa524f93e25e83fd87c6f62d5c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Analytics Cloud Security User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Analytics Cloud Security User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1632,
+            "modifiedTime": 1550549853471,
+            "changeTime": 1550549853471,
+            "contentHash": "0f1ce03d788e5f8c8579978d2ab016a1355c64e8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Authenticated Website.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Authenticated Website.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1543,
+            "modifiedTime": 1550549853471,
+            "changeTime": 1550549853471,
+            "contentHash": "5c4f4486fc8da457833a5f2753f2885a1ad6220c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter External User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter External User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1531,
+            "modifiedTime": 1550549853474,
+            "changeTime": 1550549853474,
+            "contentHash": "1510a72895e6dba62178bb6f61a456dfb7da9e56",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter Free User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter Free User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2377,
+            "modifiedTime": 1550549853475,
+            "changeTime": 1550549853475,
+            "contentHash": "a6359125497b11cb0cbcb08286b78a75da240494",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter Moderator User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Chatter Moderator User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2495,
+            "modifiedTime": 1550549853476,
+            "changeTime": 1550549853476,
+            "contentHash": "0045033e6b801f5867493ccb3c6527bc5a99e586",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Company Communities User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Company Communities User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4536,
+            "modifiedTime": 1550549853476,
+            "changeTime": 1550549853476,
+            "contentHash": "b139cbd02d36b0809d88118b23ecb0d5c54fed3e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\ContractManager.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\ContractManager.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5947,
+            "modifiedTime": 1550549853477,
+            "changeTime": 1550549853477,
+            "contentHash": "e3535efb5d6e1d967ef803aa990a75474a038164",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\CPQ Integration User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\CPQ Integration User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 660,
+            "modifiedTime": 1550549853474,
+            "changeTime": 1550549853474,
+            "contentHash": "32fc3d852b65fcb581fcc0102d36ffe58ace4718",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Cross Org Data Proxy User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Cross Org Data Proxy User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1182,
+            "modifiedTime": 1550549853478,
+            "changeTime": 1550549853478,
+            "contentHash": "2b21896f8d2786d65f4dc3ecc08574c941c62cb4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4595,
+            "modifiedTime": 1550549853479,
+            "changeTime": 1550549853479,
+            "contentHash": "ceb66f3b0d04c2146014e624571762f70dff3b01",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4595,
+            "modifiedTime": 1550549853479,
+            "changeTime": 1550549853479,
+            "contentHash": "ceb66f3b0d04c2146014e624571762f70dff3b01",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4945,
+            "modifiedTime": 1550549853480,
+            "changeTime": 1550549853480,
+            "contentHash": "5446da6482878bbb709797e691a340ca9f0da703",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Login User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Login User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2015,
+            "modifiedTime": 1550549853481,
+            "changeTime": 1550549853481,
+            "contentHash": "08dff06df061ccc5ebd3cbceec183396542043a3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Plus Login User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Plus Login User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2596,
+            "modifiedTime": 1550549853481,
+            "changeTime": 1550549853481,
+            "contentHash": "bb4ceec7370fd4ce28e46e00e62b41254082b64e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Plus User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community Plus User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2590,
+            "modifiedTime": 1550549853482,
+            "changeTime": 1550549853482,
+            "contentHash": "d723653e7fcf7c6436f49ef7070f8bb8b30ff3e3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Community User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2009,
+            "modifiedTime": 1550549853483,
+            "changeTime": 1550549853483,
+            "contentHash": "fb4fe37fc33b101d0a40eee3b88438e0b9605bbe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Portal Manager Custom.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Portal Manager Custom.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2376,
+            "modifiedTime": 1550549853484,
+            "changeTime": 1550549853484,
+            "contentHash": "9afd06ba5ebaebaafe8b5d64c874864349e64095",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Portal Manager Standard.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Customer Portal Manager Standard.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2378,
+            "modifiedTime": 1550549853484,
+            "changeTime": 1550549853484,
+            "contentHash": "850954eac0bb2fddb1afc88bbfd01b1b008ae34a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\External Identity User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\External Identity User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1780,
+            "modifiedTime": 1550549853485,
+            "changeTime": 1550549853485,
+            "contentHash": "d8bcd85f4a3d6b767357f836b080ec50d56bd321",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Force%2Ecom - App Subscription User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Force%2Ecom - App Subscription User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4881,
+            "modifiedTime": 1550549853486,
+            "changeTime": 1550549853486,
+            "contentHash": "be9e6900a3479172ca125974e13f3d151dcca904",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Force%2Ecom - Free User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Force%2Ecom - Free User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4034,
+            "modifiedTime": 1550549853486,
+            "changeTime": 1550549853486,
+            "contentHash": "4ad899319c3df07c08950f9091fe25375dd913b8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Gold Partner User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Gold Partner User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2713,
+            "modifiedTime": 1550549853487,
+            "changeTime": 1550549853487,
+            "contentHash": "f13bf3bb15f38903db338af0d6389ce96c1cf301",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\High Volume Customer Portal User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\High Volume Customer Portal User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1793,
+            "modifiedTime": 1550549853488,
+            "changeTime": 1550549853488,
+            "contentHash": "e72d52b86f1d79315281b2804e1533101cafcd3c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\HighVolumePortal.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\HighVolumePortal.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1672,
+            "modifiedTime": 1550549853489,
+            "changeTime": 1550549853489,
+            "contentHash": "eb736f6f577c5a6e37a0d257d2f41ca12f5693c7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Identity User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Identity User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2596,
+            "modifiedTime": 1550549853490,
+            "changeTime": 1550549853490,
+            "contentHash": "fc44f9f977a7379dccbdd795e6d5e18a44c7ba9c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\MarketingProfile.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\MarketingProfile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 6189,
+            "modifiedTime": 1550549853490,
+            "changeTime": 1550549853490,
+            "contentHash": "4cd7cb2908e46f29e65ec06dc2c266ee4611806c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner App Subscription User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner App Subscription User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4877,
+            "modifiedTime": 1550549853491,
+            "changeTime": 1550549853491,
+            "contentHash": "3a5fb6aa413080b47cd8e3b4f96227eb12b89898",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner Community Login User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner Community Login User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2713,
+            "modifiedTime": 1550549853492,
+            "changeTime": 1550549853492,
+            "contentHash": "a6185a1ceac662faa46a193411f247ac489264ca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner Community User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Partner Community User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2707,
+            "modifiedTime": 1550549853493,
+            "changeTime": 1550549853493,
+            "contentHash": "fa498b50a1623105b72670049b43e284a97798c3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\PlatformPortal.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\PlatformPortal.profile-meta.xml",
+            "isDirectory": false,
+            "size": 1650,
+            "modifiedTime": 1550549853494,
+            "changeTime": 1550549853494,
+            "contentHash": "3e248cf7f981e547f90b7a47c4a11692c6b9cba0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\ReadOnly.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\ReadOnly.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4164,
+            "modifiedTime": 1550549853494,
+            "changeTime": 1550549853494,
+            "contentHash": "35bcd1a523e49d9b1db7201c6a1c5fad5323ca06",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Silver Partner User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Silver Partner User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 2122,
+            "modifiedTime": 1550549853495,
+            "changeTime": 1550549853495,
+            "contentHash": "72f207705b66d5aa220d08e137102313ce508221",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\SolutionManager.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\SolutionManager.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5825,
+            "modifiedTime": 1550549853496,
+            "changeTime": 1550549853496,
+            "contentHash": "eaacd8983461b036d7e9c694de8393f8b1f36a32",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Standard.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Standard.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5712,
+            "modifiedTime": 1550549853497,
+            "changeTime": 1550549853497,
+            "contentHash": "789dd7c37439d65c9257a1206b413e0e810a4a09",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\StandardAul.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\StandardAul.profile-meta.xml",
+            "isDirectory": false,
+            "size": 5113,
+            "modifiedTime": 1550549853497,
+            "changeTime": 1550549853497,
+            "contentHash": "a7f7bd02f3b7c961a1f8f637ddf103ffd676081c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Work%2Ecom Only User.profile-meta.xml",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\profiles\\Work%2Ecom Only User.profile-meta.xml",
+            "isDirectory": false,
+            "size": 4510,
+            "modifiedTime": 1550549853498,
+            "changeTime": 1550549853498,
+            "contentHash": "dc30f4bbf23390e141f2b999568d00f4a794043a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch",
+        {
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550549853499,
+            "changeTime": 1550549853499,
+            "contentHash": "ac8ebe8fbf8686ccd99613333554bc80e3ff17df",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 6383,
+            "modifiedTime": 1550555676619,
+            "changeTime": 1550555676619,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\SFDXPOC.cls-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\SFDXPOC.cls-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 174,
+            "modifiedTime": 1550555676656,
+            "changeTime": 1550555676656,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\SFDXPOC.cls",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\classes\\SFDXPOC.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 102,
+            "modifiedTime": 1550555676666,
+            "changeTime": 1550555676666,
+            "contentHash": "8f037fa8f24d6059f312423affbd057fbf8a820e"
+        }
+    ],
+    [
+        "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\settings",
+        {
+            "state": "u",
+            "sourcePath": "D:\\Mangesh\\RD\\SalesforceDX\\ClientSFDX\\SFDXUser1\\SFDXTestScratch\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1550555676619,
+            "changeTime": 1550555676619,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb"
+        }
+    ]
+]
