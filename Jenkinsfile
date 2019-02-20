@@ -32,11 +32,11 @@ node {
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
         stage('Create Scratch Org') {
 
-            rc = shell returnStatus: true, script: "${toolbelt}/sfdx force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
             if (rc != 0) { error 'hub org authorization failed' }
 
             // need to pull out assigned username
-            rmsg = shell returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/workspace-scratch-def.json --json --setdefaultusername"
+            rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/workspace-scratch-def.json --json --setdefaultusername"
             printf rmsg
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
@@ -47,7 +47,7 @@ node {
         }
 
         stage('Push To Test Org') {
-            rc = shell returnStatus: true, script: "${toolbelt}/sfdx force:source:push --targetusername ${SFDC_USERNAME}"
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:source:push --targetusername ${SFDC_USERNAME}"
             if (rc != 0) {
                 error 'push failed'
             }
@@ -61,7 +61,7 @@ node {
         stage('Run Apex Test') {
             sh "mkdir -p ${RUN_ARTIFACT_DIR}"
             timeout(time: 120, unit: 'SECONDS') {
-                rc = shell returnStatus: true, script: "${toolbelt}/sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
+                rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
                 if (rc != 0) {
                     error 'apex test run failed'
                 }
