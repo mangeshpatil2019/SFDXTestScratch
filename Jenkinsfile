@@ -11,20 +11,9 @@ node {
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
 
-
-
-
     def toolbelt = tool 'toolbelt'
 
     stage('checkout source') {
-
-    printf BUILD_NUMBER
-    printf RUN_ARTIFACT_DIR
-    printf HUB_ORG
-    printf SFDC_HOST
-    printf JWT_KEY_CRED_ID
-    printf CONNECTED_APP_CONSUMER_KEY
-
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
@@ -36,12 +25,12 @@ node {
             if (rc != 0) { error 'hub org authorization failed' }
 
             // need to pull out assigned username
-            rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/workspace-scratch-def.json --json --setdefaultusername"
+            rmsg = sh returnStdout: true, script: "${toolbelt}/sfdx force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
             printf rmsg
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
-            if (robj.status != "ok") { error 'org creation failed: ' + robj.message }
-            SFDC_USERNAME=robj.username
+            if (robj.status != 0) { error 'org creation failed: ' + robj.message }
+            SFDC_USERNAME=robj.result.username
             robj = null
 
         }
@@ -52,10 +41,10 @@ node {
                 error 'push failed'
             }
             // assign permset
-            // rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:user:permset:assign --targetusername ${SFDC_USERNAME} --permsetname WIPDeveloperDX"
-            // if (rc != 0) {
-            //     error 'permset:assign failed'
-            // }
+            rc = sh returnStatus: true, script: "${toolbelt}/sfdx force:user:permset:assign --targetusername ${SFDC_USERNAME} --permsetname DreamHouse"
+            if (rc != 0) {
+                error 'permset:assign failed'
+            }
         }
 
         stage('Run Apex Test') {
