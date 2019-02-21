@@ -50,6 +50,10 @@ public class QuickbookCustomerResponse{
     public static QuickbookCustomerResponse parse(String json){
         return (QuickbookCustomerResponse) System.JSON.deserialize(json, QuickbookCustomerResponse.class);
     }
+    public class pqrTest{
+        public string fName;
+        public string lName;
+    }
     /*
     static testMethod void testParse() {
         String json=        '{'+
