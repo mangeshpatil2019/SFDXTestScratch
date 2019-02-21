@@ -36,7 +36,7 @@ node {
 
         stage('Convert to metadata') {
 			sh "mkdir -p ${RUN_ARTIFACT_DIR}"
-            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  sfdx force:source:convert -d ${RUN_ARTIFACT_DIR}/ --packagename ${package_name}"
+            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:source:convert -d ${RUN_ARTIFACT_DIR}/ --packagename ${package_name}"
             if (rc != 0) {
                 error 'package failed'
             }
