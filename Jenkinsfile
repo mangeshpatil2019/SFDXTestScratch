@@ -21,7 +21,8 @@ node {
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
         stage('Create Scratch Org') {
             //error CONNECTED_APP_CONSUMER_KEY_DH 
-            jwt_key_file="7b05b896-ca8e-48cb-a679-968f3dbee968"
+            //jwt_key_file="7b05b896-ca8e-48cb-a679-968f3dbee968"
+            echo jwt_key_file
 
             rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
             // rc= sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant -i ${CONNECTED_APP_CONSUMER_KEY} -u ${HUB_ORG} -f ${JWT_KEY_FILE} -s -r ${SFDC_HOST} --json --loglevel debug"
