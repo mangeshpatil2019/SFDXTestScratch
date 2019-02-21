@@ -20,7 +20,7 @@ node {
     }
 
     withCredentials([file(credentialsId: JWT_KEY_CRED_ID, variable: 'jwt_key_file')]) {
-        stage('Create Scratch Org') {
+        stage('login to Org') {
             //error CONNECTED_APP_CONSUMER_KEY_DH 
             
 
