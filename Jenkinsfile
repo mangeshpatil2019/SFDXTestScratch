@@ -44,7 +44,7 @@ node {
         }
 
         stage('Deploy to Server') {
-            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:mdapi:deploy -d ${RUN_ARTIFACT_DIR}/ -u ${HUB_ORG} -l RunlocalTests"
+            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:mdapi:deploy -d ${RUN_ARTIFACT_DIR}/ -u ${HUB_ORG} -l NoTestRun"
             if (rc != 0) {
                 error 'package failed'
             }
