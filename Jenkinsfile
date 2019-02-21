@@ -10,7 +10,7 @@ node {
     def SFDC_HOST = env.SFDC_HOST_DH
     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
-    JWT_KEY_FILE                   = "ca.key"
+    def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
 
     stage('checkout source') {
@@ -24,8 +24,8 @@ node {
             //jwt_key_file="7b05b896-ca8e-48cb-a679-968f3dbee968"
             echo jwt_key_file
 
-            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
-            // rc= sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant -i ${CONNECTED_APP_CONSUMER_KEY} -u ${HUB_ORG} -f ${JWT_KEY_FILE} -s -r ${SFDC_HOST} --json --loglevel debug"
+           // rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
+             rc= sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant -i ${CONNECTED_APP_CONSUMER_KEY} -u ${HUB_ORG} -f ${JWT_KEY_FILE} -s -r ${SFDC_HOST} --json --loglevel debug"
             //printf rc
             if (rc != 0) { error 'hub org authorization failed' }
 
