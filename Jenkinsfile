@@ -52,7 +52,7 @@ node {
 
         stage('collect results') {
 		//sfdx force:mdapi:deploy:report
-	    rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:mdapi:deploy:report --loglevel info"
+	    rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:mdapi:deploy:report --wait -1 --loglevel info"
             if (rc != 0) {
                 error 'package failed'
             }
