@@ -12,6 +12,7 @@ node {
     def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf6CsZ6N7hb1eP64sQz6nZAIOTm.WTJB4jnWEoHGayQlj4I_MzZLpZWMDN7Q7L44u.xp1iG6"
     def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
+    def package_name="mypackage"
 
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
