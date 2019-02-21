@@ -51,7 +51,12 @@ node {
         }
 
         stage('collect results') {
-            junit keepLongStdio: true, testResults: 'tests/**/*-junit.xml'
+		//sfdx force:mdapi:deploy:report
+	    rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\"  force:mdapi:deploy:report --loglevel info"
+            if (rc != 0) {
+                error 'package failed'
+            }
+            
         }
     }
 }
