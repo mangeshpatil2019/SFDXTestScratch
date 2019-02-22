@@ -57,6 +57,7 @@ node {
             timeout(time: 120, unit: 'SECONDS') {
                 rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
                 if (rc != 0) {
+                    rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
                     error 'apex test run failed'
                 }
             }
