@@ -4,7 +4,7 @@ node {
 
     def SFDC_USERNAME
     def emailSubject
-    def emailID
+    def emailId
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
@@ -14,13 +14,13 @@ node {
         stage('Create Scratch Org') {
             
             SFDC_USERNAME="abc@example123.com"
-            emailID="mspatil.27@gmail.com"
+            emailId="mspatil.27@gmail.com"
 
         }
         
         stage('Send scratch org username'){
             emailSubject= "${SFDC_USERNAME}"  
-            emailext subject: "${emailSubject}", mimeType: 'text/html',to: "${eamilID}"
+            emailext subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}"
             
         }
 
