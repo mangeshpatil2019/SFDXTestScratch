@@ -5,6 +5,7 @@ import javax.mail.*
 import javax.activation.*
 import javax.mail.Multipart;
 import javax.mail.internet.MimeMultipart;
+/*
 import com.atlassian.jira.issue.Issue;
 import com.atlassian.jira.ComponentManager;
 import com.atlassian.jira.issue.CustomFieldManager;
@@ -14,7 +15,7 @@ import com.atlassian.jira.issue.attachment.Attachment;
 import com.atlassian.jira.issue.history.ChangeItemBean;
 import com.atlassian.jira.util.AttachmentUtils;
 import groovy.text.GStringTemplateEngine;
-
+*/
 node {
 
     def BUILD_NUMBER=env.BUILD_NUMBER
@@ -57,22 +58,22 @@ node {
         
         stage('Send scratch org username'){
             //Get Comment Manager
-            CommentManager commentManager = componentManager.getCommentManager();
+            //CommentManager commentManager = componentManager.getCommentManager();
 
             //Get custom field manager
-            CustomFieldManager customFieldManager = ComponentManager.getInstance().getCustomFieldManager();
+            //CustomFieldManager customFieldManager = ComponentManager.getInstance().getCustomFieldManager();
 
 
             //Get custom field email by id
-            CustomField customField_email = customFieldManager.getCustomFieldObject( 10205 );
+            //CustomField customField_email = customFieldManager.getCustomFieldObject( 10205 );
 
 
             //get value of customField_email
-            to = issue.getCustomFieldValue( customField_email )
+            to = "patil_mangesh77@yahoo.com"
 
 
             //Email Headers
-            sender="test@gmail.com"
+            sender="mspatil.27@gmail.com"
             sendername="Test Test"
 
 
