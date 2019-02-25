@@ -39,7 +39,7 @@ node {
             //error CONNECTED_APP_CONSUMER_KEY_DH 
             //jwt_key_file="7b05b896-ca8e-48cb-a679-968f3dbee968"
             echo jwt_key_file
-
+            /*
            // rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
               rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${JWT_KEY_FILE} --setdefaultdevhubusername --instanceurl ${SFDC_HOST} --json --loglevel debug"
             //printf rc
@@ -51,7 +51,8 @@ node {
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
             if (robj.status != 0) { error 'org creation failed: ' + robj.message }
-            SFDC_USERNAME=robj.result.username
+            */
+            SFDC_USERNAME="abc@example123.com"
             robj = null
 
         }
@@ -133,31 +134,6 @@ node {
         }
 
 
-        stage('Push To Test Org') {
-            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:source:push --targetusername ${SFDC_USERNAME}"
-            if (rc != 0) {
-                error 'push failed'
-            }
-            // assign permset
-            rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:user:permset:assign --targetusername ${SFDC_USERNAME} --permsetname DreamHouse"
-            if (rc != 0) {
-                error 'permset:assign failed'
-            }
-        }
-
-        stage('Run Apex Test') {
-            sh "mkdir -p ${RUN_ARTIFACT_DIR}"
-            timeout(time: 120, unit: 'SECONDS') {
-                rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
-                if (rc != 0) {
-                    rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
-                    error 'apex test run failed'
-                }
-            }
-        }
-
-        stage('collect results') {
-            junit keepLongStdio: true, testResults: 'tests/**/*-junit.xml'
-        }
+       
     }
 }
