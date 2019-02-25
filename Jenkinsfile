@@ -1,5 +1,20 @@
 #!groovy
 import groovy.json.JsonSlurperClassic
+import javax.mail.internet.*;
+import javax.mail.*
+import javax.activation.*
+import javax.mail.Multipart;
+import javax.mail.internet.MimeMultipart;
+import com.atlassian.jira.issue.Issue;
+import com.atlassian.jira.ComponentManager;
+import com.atlassian.jira.issue.CustomFieldManager;
+import com.atlassian.jira.issue.fields.CustomField;
+import com.atlassian.jira.issue.comments.CommentManager;
+import com.atlassian.jira.issue.attachment.Attachment;
+import com.atlassian.jira.issue.history.ChangeItemBean;
+import com.atlassian.jira.util.AttachmentUtils;
+import groovy.text.GStringTemplateEngine;
+
 node {
 
     def BUILD_NUMBER=env.BUILD_NUMBER
@@ -39,6 +54,83 @@ node {
             robj = null
 
         }
+        
+        stage('Send scratch org username'){
+            //Get Comment Manager
+            CommentManager commentManager = componentManager.getCommentManager();
+
+            //Get custom field manager
+            CustomFieldManager customFieldManager = ComponentManager.getInstance().getCustomFieldManager();
+
+
+            //Get custom field email by id
+            CustomField customField_email = customFieldManager.getCustomFieldObject( 10205 );
+
+
+            //get value of customField_email
+            to = issue.getCustomFieldValue( customField_email )
+
+
+            //Email Headers
+            sender="test@gmail.com"
+            sendername="Test Test"
+
+
+            //Email acccount credentials
+            username="MSPATIL.27@GMAIL.COM"
+            password="Adh@r2#apt531"
+
+            //Gmail Default port
+            port = 25
+
+            //Email Body
+            content = SFDC_USERNAME
+           
+
+            //Creat first part of email, Email Body
+
+
+            Multipart mp = new MimeMultipart("mixed");
+
+            MimeBodyPart htmlPart = new MimeBodyPart();
+            htmlPart.setContent(content.toString(), "text/html");
+            mp.addBodyPart(htmlPart);
+
+
+                    //Email Properties
+
+                    props = new Properties()
+                    props.put("mail.smtp.port", port);
+                    props.put("mail.smtp.socketFactory.fallback", "false");
+                    props.put("mail.smtp.quitwait", "false");
+                    props.put("mail.smtp.host", "smtp.gmail.com");
+                    props.put("mail.smtp.auth", "true");   
+            
+            
+                                //New session
+
+                Session session = Session.getDefaultInstance(props);
+                MimeMessage message = new MimeMessage(session);
+                message.setFrom(new InternetAddress(sender,sendername));
+                message.setSubject("${issue.getKey()}");
+                message.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
+                message.setContent(mp)
+
+                try{
+                        Transport transport = session.getTransport("smtp");
+                        transport.connect( "smtp.gmail.com",port,username,password );
+                        transport.sendMessage(message,message.getAllRecipients());
+                        transport.close();
+                        log.warn ("mail sent sucesfully to : "+ issue.getCustomFieldValue( customField_email).toString())
+
+
+                }catch (MessagingException mex) {
+                         mex.printStackTrace();
+                }
+            
+
+        }
+
 
         stage('Push To Test Org') {
             rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:source:push --targetusername ${SFDC_USERNAME}"
