@@ -58,7 +58,7 @@ node {
         }
         
         stage('Send scratch org username'){
-            emailSubject= "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful   ${SFDC_USERNAME}" , 
+            emailSubject= "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful   ${SFDC_USERNAME}"  
             emailext subject: "$emailSubject}", mimeType: 'text/html',to: "email id"
             //Get Comment Manager
             //CommentManager commentManager = componentManager.getCommentManager();
