@@ -28,7 +28,7 @@ node {
     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
     def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
-
+    def emailSubject
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
@@ -58,6 +58,8 @@ node {
         }
         
         stage('Send scratch org username'){
+            emailSubject= "${env.JOB_NAME} - Build # ${env.BUILD_NUMBER} - Successful   ${SFDC_USERNAME}" , 
+            emailext subject: "$emailSubject}", mimeType: 'text/html',to: "email id"
             //Get Comment Manager
             //CommentManager commentManager = componentManager.getCommentManager();
 
@@ -68,7 +70,7 @@ node {
             //Get custom field email by id
             //CustomField customField_email = customFieldManager.getCustomFieldObject( 10205 );
 
-
+            /*
             //get value of customField_email
             to = "patil_mangesh77@yahoo.com"
 
@@ -130,7 +132,7 @@ node {
                          mex.printStackTrace();
                 }
             
-
+            */
         }
 
 
