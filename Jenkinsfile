@@ -79,7 +79,7 @@ node {
 
             //Email acccount credentials
             username="MSPATIL.27@GMAIL.COM"
-            password="Adh@r2#apt531"
+            password=""
 
             //Gmail Default port
             port = 25
