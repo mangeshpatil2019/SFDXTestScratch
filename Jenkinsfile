@@ -23,7 +23,7 @@ node {
         stage('Create Scratch Org') {
             //error CONNECTED_APP_CONSUMER_KEY_DH 
             //jwt_key_file="7b05b896-ca8e-48cb-a679-968f3dbee968"
-            echo jwt_key_file
+            echo jwt_key_file 
 
            // rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${jwt_key_file} --setdefaultdevhubusername --instanceurl ${SFDC_HOST}"
               rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:auth:jwt:grant --clientid ${CONNECTED_APP_CONSUMER_KEY} --username ${HUB_ORG} --jwtkeyfile ${JWT_KEY_FILE} --setdefaultdevhubusername --instanceurl ${SFDC_HOST} --json --loglevel debug"
