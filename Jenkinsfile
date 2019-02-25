@@ -14,7 +14,7 @@ node {
         stage('Create Scratch Org') {
             
             SFDC_USERNAME="abc@example123.com"
-            emailId="mspatil.27@gmail.com"
+            emailId="patil_mangesh77@yahoo.com"
 
         }
         
