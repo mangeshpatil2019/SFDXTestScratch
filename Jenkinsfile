@@ -20,7 +20,7 @@ node {
         
         stage('Send scratch org username'){
             emailSubject= "${SFDC_USERNAME}"  
-            emailext subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}"
+            emailext (subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}")
             
         }
 
