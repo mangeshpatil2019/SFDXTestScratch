@@ -7,8 +7,8 @@ node {
     def SFDC_USERNAME
 
     def HUB_ORG="mangeshpatildev2@cicd.com"
-    def SFDC_HOST = env.SFDC_HOST_DH
-    def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
+    def SFDC_HOST ="https://login.salesforce.com"
+    def JWT_KEY_CRED_ID ="abc"
     def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf6CsZ6N7hb1eP64sQz6nZAIOTm.WTJB4jnWEoHGayQlj4I_MzZLpZWMDN7Q7L44u.xp1iG6"
     def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
