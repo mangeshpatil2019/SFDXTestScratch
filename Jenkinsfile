@@ -51,6 +51,7 @@ node {
             password=robj1.result.username
             instanceURL=robj1.result.instanceURL
             robj = null
+            robj1=null
 
         }
         
