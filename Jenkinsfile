@@ -56,7 +56,7 @@ node {
         
         stage('send email'){
             emailId="mangesh_patil32@syntelinc.com"
-            emailBody="${SFDC_USERNAME} - ${password} - ${instanceURL}
+            emailBody="${SFDC_USERNAME} - ${password} - ${instanceURL}"
             emailSubject= "${SFDC_USERNAME}"  
             emailext (subject: "${emailSubject}", mimeType: 'text/html',body:"${emailBody}",to: "${emailId}")
         }
