@@ -5,7 +5,8 @@ node {
     def BUILD_NUMBER=env.BUILD_NUMBER
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
-
+    def password;
+    def instanceURL;
     def HUB_ORG="mangeshpatildev1@cicd.com"
     def SFDC_HOST = "https://login.salesforce.com"
     def JWT_KEY_CRED_ID = "db23e4b1-18f8-4422-9927-74aa0b4257ac"
@@ -14,6 +15,7 @@ node {
     def toolbelt = tool 'toolbelt'
     def emailSubject
     def emailId
+    def emailBody
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
@@ -32,19 +34,31 @@ node {
 
             // need to pull out assigned username
             rmsg = sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
-            printf rmsg
+            rmsg2= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:org:create --definitionfile config/project-scratch-def.json --json --setdefaultusername"
+            
+            
             def jsonSlurper = new JsonSlurperClassic()
             def robj = jsonSlurper.parseText(rmsg)
             if (robj.status != 0) { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME=robj.result.username
+            
+            rmsg2= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
+            rmsg3= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:display --targetusername ${SFDC_USERNAME} --json"
+            
+            def jsonSlurper1 = new JsonSlurperClassic()
+            def robj1 = jsonSlurper1.parseText(rmsg3)
+            if (robj1.status != 0) { error 'org creation failed: ' + robj1.message }
+            password=robj1.result.username
+            instanceURL=robj1.result.instanceURL
             robj = null
 
         }
         
         stage('send email'){
             emailId="mangesh_patil32@syntelinc.com"
+            emailBody="${SFDC_USERNAME} - ${password} - ${instanceURL}
             emailSubject= "${SFDC_USERNAME}"  
-            emailext (subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}")
+            emailext (subject: "${emailSubject}", mimeType: 'text/html',body:"${emailBody}",to: "${emailId}")
         }
        
         
