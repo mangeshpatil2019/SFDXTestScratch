@@ -45,13 +45,13 @@ node {
             rmsg2= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
             rmsg3= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:display --targetusername ${SFDC_USERNAME} --json"
             
-            def jsonSlurper1 = new JsonSlurperClassic()
-            def robj1 = jsonSlurper1.parseText(rmsg3)
-            if (robj1.status != 0) { error 'org creation failed: ' + robj1.message }
-            password=robj1.result.username
-            instanceURL=robj1.result.instanceURL
+            //def jsonSlurper1 = new JsonSlurperClassic()
+            //def robj1 = jsonSlurper1.parseText(rmsg3)
+            //if (robj1.status != 0) { error 'org creation failed: ' + robj1.message }
+            //password=robj1.result.username
+            //instanceURL=robj1.result.instanceURL
             robj = null
-            robj1=null
+            //robj1=null
 
         }
         
