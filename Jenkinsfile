@@ -42,7 +42,7 @@ node {
         }
         
         stage('send email'){
-            emailId="patil_mangesh77@yahoo.com"
+            emailId="mangesh_patil32@syntelinc.com"
             emailSubject= "${SFDC_USERNAME}"  
             emailext (subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}")
         }
