@@ -7,10 +7,10 @@ node {
     def SFDC_USERNAME
     def password;
     def instanceURL;
-    def HUB_ORG="mangeshpatildev1@cicd.com"
+    def HUB_ORG="mangeshpatildev2@cicd.com"
     def SFDC_HOST = "https://login.salesforce.com"
     def JWT_KEY_CRED_ID = "db23e4b1-18f8-4422-9927-74aa0b4257ac"
-    def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf4DdrbHp5h._MTkHGH7qy9WY2QZzUw3qTeF9WlYZ4zCOARR5HXlkN2BGE2PRkyyF9XbiudB"
+    def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf6CsZ6N7hb1eD_jy_DLXuMKoARnLXV16JuRVTZWZpBK9Y3ajdDmuYMx_hPD9DK.yrJ6RF2F"
     def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
     def emailSubject
@@ -53,6 +53,25 @@ node {
             robj = null
             //robj1=null
 
+        }
+        stage('create password'){
+            
+            rmsg= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
+            def jsonSlurper = new JsonSlurperClassic()
+            def robj = jsonSlurper.parseText(rmsg)
+            if (robj.status != 0) { error 'org creation failed: ' + robj.message }            
+            robj = null
+        }
+        
+        stage('get detail'){
+            
+            rmsg= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:display --targetusername ${SFDC_USERNAME} --json"
+            def jsonSlurper = new JsonSlurperClassic()
+            def robj = jsonSlurper.parseText(rmsg)
+            if (robj.status != 0) { error 'org creation failed: ' + robj.message }            
+            password=robj.result.username
+            instanceURL=robj.result.instanceURL
+            robj = null
         }
         
         stage('send email'){
