@@ -57,10 +57,7 @@ node {
         stage('create password'){
             
             rmsg= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
-            def jsonSlurper = new JsonSlurperClassic()
-            def robj = jsonSlurper.parseText(rmsg)
-            if (robj.status != 0) { error 'org creation failed: ' + robj.message }            
-            robj = null
+            
         }
         
         stage('get detail'){
