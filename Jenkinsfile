@@ -46,6 +46,15 @@ node {
         stage('Push To Test Org') {
             rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:source:push --targetusername ${SFDC_USERNAME}"
             if (rc != 0) {
+                rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
+                    //error 'apex test run failed'
+                                emailId="mangesh_patil32@syntelinc.com"
+                         emailext (
+                           subject: "Job: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+                           body: """<p>SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+                             <p>Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>""",
+                              mimeType: 'text/html',to: "${emailId}"
+                         )
                 error 'push failed'
             }
             // assign permset
