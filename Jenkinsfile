@@ -42,8 +42,8 @@ node {
             if (robj.status != 0) { error 'org creation failed: ' + robj.message }
             SFDC_USERNAME=robj.result.username
             
-            rmsg2= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
-            rmsg3= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:display --targetusername ${SFDC_USERNAME} --json"
+            //rmsg2= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:password:generate --targetusername ${SFDC_USERNAME}"
+            //rmsg3= sh returnStdout: true, script: "\"${toolbelt}/sfdx\" force:user:display --targetusername ${SFDC_USERNAME} --json"
             
             //def jsonSlurper1 = new JsonSlurperClassic()
             //def robj1 = jsonSlurper1.parseText(rmsg3)
