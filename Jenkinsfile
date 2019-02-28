@@ -62,7 +62,7 @@ node {
                 if (rc != 0) {
                     result="fail"
                     rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
-                    error 'apex test run failed'
+                    //error 'apex test run failed'
                 }else{
                     result="success"
                 }
