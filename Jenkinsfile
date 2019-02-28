@@ -7,10 +7,10 @@ node {
     def SFDC_USERNAME
     def password;
     def instanceURL;
-    def HUB_ORG="mangeshpatildev2@cicd.com"
+    def HUB_ORG="mangeshpatildev5@cicd.com"
     def SFDC_HOST = "https://login.salesforce.com"
     def JWT_KEY_CRED_ID = "db23e4b1-18f8-4422-9927-74aa0b4257ac"
-    def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf6CsZ6N7hb1eD_jy_DLXuMKoARnLXV16JuRVTZWZpBK9Y3ajdDmuYMx_hPD9DK.yrJ6RF2F"
+    def CONNECTED_APP_CONSUMER_KEY="3MVG9pe2TCoA1Pf4vBaUllOzdqeb2wV1SAuzsA3NhFHDY6FQ0eXTxMiDTYxSX057ZpYuxk_lNP7Yn48SrgwUf"
     def JWT_KEY_FILE                   = "ca.key"
     def toolbelt = tool 'toolbelt'
     def emailSubject
