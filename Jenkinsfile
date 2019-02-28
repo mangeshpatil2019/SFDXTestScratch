@@ -14,6 +14,7 @@ node {
     def toolbelt = tool 'toolbelt'
     def emailSubject
     def emailId
+    def result
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
@@ -41,11 +42,7 @@ node {
 
         }
         
-        stage('send email'){
-            emailId="patil_mangesh77@yahoo.com"
-            emailSubject= "${SFDC_USERNAME}"  
-            emailext (subject: "${emailSubject}", mimeType: 'text/html',to: "${emailId}")
-        }
+        
         stage('Push To Test Org') {
             rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:source:push --targetusername ${SFDC_USERNAME}"
             if (rc != 0) {
@@ -63,14 +60,35 @@ node {
             timeout(time: 120, unit: 'SECONDS') {
                 rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:apex:test:run --testlevel RunLocalTests --outputdir ${RUN_ARTIFACT_DIR} --resultformat tap --targetusername ${SFDC_USERNAME}"
                 if (rc != 0) {
+                    result="fail"
                     rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
                     error 'apex test run failed'
+                }else{
+                    result="success"
                 }
             }
         }
-
+        
         stage('collect results') {
             junit keepLongStdio: true, testResults: 'tests/**/*-junit.xml'
+        }
+        
+        stage('Delete scratch org'){
+            if(result=="success"){      
+                rc = sh returnStatus: true, script: "\"${toolbelt}/sfdx\" force:org:delete --targetusername ${SFDC_USERNAME} "
+            }
+        }
+        
+        stage('send email'){
+           
+             emailext (
+               subject: "Job: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+               body: """<p>SUCCESSFUL: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+                 <p>Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>""",
+                  mimeType: 'text/html',to: "${emailId}"
+             )
+
+            
         }
         
     }
